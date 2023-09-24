@@ -60,12 +60,33 @@
             com o passar da obra, até as próprias criaturas. Todas essas artes podem ser conferidas na nossa 
             <a href=Galeria.html>galeria</a>
         </p>
+        <h3>Comunidade: </h3>
         <fieldset>
-            <legend>Isso é uma legenda de fieldset</legend>
-            <p><label for="idTexto">Comentário</label><input type="text" name="Coment" id="idComent" size="30" placeholder="Escreva um comentário"></p>
-            <label for="id1">Email:</label><br><input type="radio" name="IgualParaTodosOsRadioDeUmaMesmaEntrada" value="Opção 1" id="id1"><label
-            for="id1">Sim</label>
-        <input type="radio" name="IgualParaTodosOsRadioDeUmaMesmaEntrada" value="Opção 2" id="id2"><label for="id2">Não</label>
+            <legend>Campo de interação</legend>
+            <p><label for="idTexto">Comentário</label><input type="text" name="Coment" id="idComent" size="35" placeholder="Deixe aqui uma opinião sua sobre o cicada"></p>
+            <label for="id1">Qual o seu nível de conhecimento sobre o cicada?</label><br><input type="radio" name="IgualParaTodosOsRadioDeUmaMesmaEntrada" value="Opção 1" id="id1"><label
+            for="id1">Muito</label>
+        <input type="radio" name="IgualParaTodosOsRadioDeUmaMesmaEntrada" value="Opção 2" id="id2"><label for="id2">Nada</label>
+        <input type="radio" name="IgualParaTodosOsRadioDeUmaMesmaEntrada" value="Opção 3" id="id3"><label for="id3">Razoável</label>
+        <br>
+        <br>
+        <label for="idNum">Quantos personagens da obra você conhece?</label><br><input type="number" name="nNum" id="idNum" min="0" max="50">
+        <br>
+        <br>
+            <label for="idSelecao">Qual o melhor personagem da primeira temporada?</label><br>
+            <select name="nSelecao" id="idSelecao">
+                <option value="Aziam">Aziam</option>
+                <option value="Stella">Stella</option>
+                <option value="Calango">Calango</option>
+                <option value="Kowalski">Kowalski</option>
+                <option value="Prefeito">Prefeito</option>
+            </select>
+            <br>
+            <br>    
+            <label for="idRange">O quanto você gosta do Mariano(Jesus)?</label><br><input type="range" min="1" max="10" name="nRange" id="idRange">
+            <br>
+            <br>
+            <label for="idCaixa">Curiosidades:</label><br><textarea type="text" cols="50" rows="10" placeholder="Digite aqui uma curiosidade que você julga interessante sobre a obra." name="nCurios" id="idCurios"></textarea><br>
     </fieldset>
     </body>
 </html>
