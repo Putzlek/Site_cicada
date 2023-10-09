@@ -29,5 +29,9 @@ h3{
 }
 
 body{
-  color: #000000;
+  background-color: #000000;
+}
+
+li{
+  font-size: small;
 }
