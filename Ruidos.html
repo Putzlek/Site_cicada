@@ -8,10 +8,29 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <style>
-        a{
-            color: #1F621A;
+        h1{
+            color: #EF1DF2;
         }
-</style>
+
+        p{
+            color: #790C79;
+            animation: pisca 5s infinite;
+        }
+
+        @keyframes pisca{
+            0% {color: #790C79;}
+            10%{color: #1F621A;}
+            20%{color: black;}
+            30%{color: #EF1DF2;}
+            40%{color: #24F21D;}
+            50%{color: black;}
+            60% {color: #790C79;}
+            70%{color: #1F621A;}
+            80%{color: #EF1DF2;}
+            90%{color: black;}
+            100%{color: #790C79;}
+        }
+    </style>
     <body>
         <hr>
         <ul type="disc">
@@ -28,7 +47,8 @@
             <li><a href="faleconosco.html">Fale com a gente</a></li>
     </ul>
     <h1>O primeiro spin-off</h1>
-    <p>Essa se trata da primeira temporada do cicada que não acompanhou os protagonistas principais da obra,
+    <p>
+        Essa se trata da primeira temporada do cicada que não acompanhou os protagonistas principais da obra,
     pelo menos não necessariamente...</p>
     <video controls poster="imagens/images_27.jpg" width="420" height="310">
     <source src="midia/SPOILER_2022_12_28_15_42_26.mp4">
